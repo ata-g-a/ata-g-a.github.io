@@ -180,35 +180,42 @@
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
       <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"
+        onclick="gtag('event', 'About_click', {event_category: 'engagement',event_label: 'About_Click'});">
+        <i class="mdi-social-person small"></i><span>About</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+        <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark teal-text"
+          onclick="gtag('event', 'Experience_click', {event_category: 'engagement',event_label: 'Experience_Click'});">
+          <i class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"
+          onclick="gtag('event', 'Projects_click', {event_category: 'engagement',event_label: 'Projects_Click'});">
+          <i class="mdi-av-my-library-books small"></i><span>Projects</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"
+          onclick="gtag('event', 'Skills_click', {event_category: 'engagement',event_label: 'Skills_Click'});">
+          <i class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
 
       <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"
+          onclick="gtag('event', 'Education_click', {event_category: 'engagement',event_label: 'Education_Click'});">
+          <i class="mdi-social-school small"></i><span>Education</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"
+          onclick="gtag('event', 'Contact_click', {event_category: 'engagement',event_label: 'Contact_Click'});">
+          <i class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
       <li class="bold">
         <a aria-label="Open Ata's Resume in a new tab"
-          href="https://ata-g-a.github.io/assets/resume/ata_g_a Resume.pdf" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+          href="https://ata-g-a.github.io/assets/resume/ata_g_a%20Resume.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"
+          onclick="gtag('event', 'resume_click', {event_category: 'engagement',event_label: 'Web_Resume_PDF_Open'});">
+          <i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
     </ul>
   </nav>
